@@ -1,7 +1,7 @@
 Software I wrote to help design a radiator core for UBR29. 
 
 Rad_Spec_Software is the original code, for pure water rads.
-Cooling_Sythsis is for pure water, glycol, engine oil, and air to air heat exchangers, all interacting with inlet air.
+Cooling_Sythsis is for pure water, glycol, engine oil, and air to air heat exchangers, all interacting with inlet air. The spelling mistake hurts me too.
 I made the latter to fix all the old bugs left in Rad_Spec_Software, and to allow for a bigger variety of design considerations.
 
 Equations in this are taken mostly from the Thermex data sheet that UBRacing was provided with, albeit with a few exceptions.
@@ -14,3 +14,9 @@ altered ha equation derived from : https://www.sciencedirect.com/topics/engineer
 effectiveness equation taken from : https://innovationspace.ansys.com/courses/wp-content/uploads/sites/5/2021/02/LT4C3-Lesson4-Handout-NT.pdf
 
 Pressure drop equation set for intercoolers from : https://tfaws.nasa.gov/TFAWS07/Proceedings/TFAWS07-1016.pdf
+
+There are 2 downloads available : the main download, which is the exe of the software, working relatively well out of the box and the partial download, which allows you to make your own software. 
+
+It also gives you a look at some of the source code. As detailed in that release, all private information (equations, standard geometry) have been deleted, only leaving reasonably public equations or those I found myself.
+
+I would not recommend recreating this project from this file unless you a) know a lot about thermodynamics and b) desparately need some custom feature I neglected to include (see: max core depth of 100mm).
